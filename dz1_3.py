@@ -9,5 +9,7 @@ elif percentage in range(23, 1001, 10):
     print(percentage, "процента")
 elif percentage in range(24, 1001, 10):
     print(percentage, "процента")
+elif percentage <= 4:
+    print(percentage, "процента")
 elif percentage >= 5:
     print(percentage, "процентов")
